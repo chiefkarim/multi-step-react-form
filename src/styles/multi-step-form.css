@@ -1,0 +1,18 @@
+input {
+  margin-top: 12px;
+  width: calc(100% - 30px);
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  background: #f1f4f9 0% 0% no-repeat padding-box;
+  border: 1px solid var(--clrbrd);
+  height: 45px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border-radius: 4px;
+  display: block;
+}
+
+input:focus {
+  outline-width: 0;
+}
